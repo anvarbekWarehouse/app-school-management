@@ -5,4 +5,5 @@ import uz.hamkorbank.appschoolmanagement.entity.Address;
 import uz.hamkorbank.appschoolmanagement.entity.Lessons;
 
 public interface LessonRepository extends JpaRepository<Lessons, Long> {
+
 }
