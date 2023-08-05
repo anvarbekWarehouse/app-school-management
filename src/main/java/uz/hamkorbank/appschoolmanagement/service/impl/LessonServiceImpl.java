@@ -3,9 +3,12 @@ package uz.hamkorbank.appschoolmanagement.service.impl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import uz.hamkorbank.appschoolmanagement.dto.LessonsCreateDto;
+<<<<<<< HEAD
 import uz.hamkorbank.appschoolmanagement.dto.LessonsResponseDto;
 import uz.hamkorbank.appschoolmanagement.dto.SchoolResponseDto;
 import uz.hamkorbank.appschoolmanagement.dto.UserResponseDto;
+=======
+>>>>>>> origin/staging
 import uz.hamkorbank.appschoolmanagement.entity.Address;
 import uz.hamkorbank.appschoolmanagement.entity.Lessons;
 import uz.hamkorbank.appschoolmanagement.entity.Subject;
@@ -68,6 +71,7 @@ public class LessonServiceImpl implements LessonService {
 
         return saveLessons;
     }
+<<<<<<< HEAD
 
     @Override
     public List<LessonsResponseDto> findAll() {
@@ -206,4 +210,6 @@ public class LessonServiceImpl implements LessonService {
             throw new ClassNotFoundException("Lessons not found with id { "+id+" }");
         lessonRepository.deleteById(id);
     }
+=======
+>>>>>>> origin/staging
 }
