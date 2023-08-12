@@ -9,13 +9,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 @Builder
-public class UserResponseDto {
-    private Long id;
-    private String name;
+public class UserForMarkResponseDto {
+    private Long studentId;
 
-    private String role;
-
-    private String address;
-
-    private SchoolResponseDto school;
+    private String studentName;
 }
